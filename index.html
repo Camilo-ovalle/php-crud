@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <form action="create.php" method="post">
+        <h1>Crear usuario</h1>
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="text" name="email" id="email" placeholder="Email">
+        <input type="text" name="phone" id="phone" placeholder="Phone">
+        <input type="submit" value="Crear">
+    </form>
+    <form action="read.php" method="get">
+        <h1>Consultar usuarios</h1>
+        <input type="submit" value="Consultar">
+    </form>
+    <form action="update.php" method="Post">
+        <h1>Actualizar usuario</h1>
+        <input type="number" name="id" id="id" placeholder="id">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="text" name="email" id="email" placeholder="Email">
+        <input type="text" name="phone" id="phone" placeholder="Phone">
+        <input type="submit" value="Actualizar">
+    </form>
+    <form action="delete.php" method="post">
+        <h1>Eliminar usuario</h1>
+        <input type="number" name="id" id="id" placeholder="id">
+        <input type="submit" value="Eliminar">
+    </form>
+</body>
+</html>
